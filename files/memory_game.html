@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<!-- 
+Sean Burke
+
+April.1 2020
+
+--->
+
+<html lang="en">
+<head>
+    <title>Memory Game</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	 <div class="container">
+        <div class="row">
+            <div class="card" onclick="compareColors(event)" id="0" data-color=""></div>
+            <div class="card" onclick="compareColors(event)" id="1" data-color=""></div>
+            <div class="card" onclick="compareColors(event)" id="2" data-color=""></div>
+            <div class="card" onclick="compareColors(event)" id="3" data-color=""></div>
+        </div>
+        <div class="row">
+            <div class="card" onclick="compareColors(event)" id="4" data-color=""></div>
+            <div class="card" onclick="compareColors(event)" id="5" data-color=""></div>
+            <div class="card" onclick="compareColors(event)" id="6" data-color=""></div>
+            <div class="card" onclick="compareColors(event)" id="7" data-color=""></div>
+        </div>
+        <div class="row">
+			<div class="card" onclick="compareColors(event)" id="8" data-color=""></div>
+            <div class="card" onclick="compareColors(event)" id="9" data-color=""></div>
+            <div class="card" onclick="compareColors(event)" id="10" data-color=""></div>
+            <div class="card" onclick="compareColors(event)" id="11" data-color=""></div>
+        </div>
+        <div class="row">
+            <div class="card" onclick="compareColors(event)" id="12" data-color=""></div>
+            <div class="card" onclick="compareColors(event)" id="13" data-color=""></div>
+            <div class="card" onclick="compareColors(event)" id="14" data-color=""></div>
+            <div class="card" onclick="compareColors(event)" id="15" data-color=""></div>
+        </div>
+        <div class="row">
+            <button onclick="setColors()">Start</button>
+        </div>
+    </div>
+	<br>
+	<center><p id="scoreBoard"></p></center>
+	<br>
+	<center><p id="clickBoard"></p></center>
+	
+	<footer>
+		<script src="memory_game.js"></script>
+	</footer
+</body>
+</html>
